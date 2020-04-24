@@ -40,6 +40,10 @@ header {
   border-radius: 40px;
 }
 
+.menu-opener {
+  display: none;
+}
+
 .menu {
   flex:1;
   display: flex;
@@ -868,7 +872,9 @@ CSS DE ÁREAS ESPECIFICAS
 
 
 
-
+/*
+GRUPO DE ESTILIZAÇÕES PARA TABLET (CONFIGURADO PARA IPAD)
+*/
 
 
 @media (min-width:450px) and (max-width:800px) {
@@ -881,7 +887,7 @@ CSS DE ÁREAS ESPECIFICAS
       margin-right:30px;
   }
   nav {
-      display:none;
+      display: none;
       position: absolute;
       z-index: 99;
       background-color: rgba(0, 0, 0, 0.9);
@@ -973,7 +979,9 @@ CSS DE ÁREAS ESPECIFICAS
   }
 }
 
-
+/*
+GRUPO DE ESTILIZAÇÕES PARA CELULAR (TESTADO NO IPHONE X)
+*/
 @media (max-width:450px) {
   .logo {
       margin-left:30px;
@@ -1132,7 +1140,7 @@ CSS DE ÁREAS ESPECIFICAS
 
   .section-map {
       padding:0;
-      padding-bottom:250px;
+      padding-bottom:250px;/*Faz o mapa aparecer abaixo*/
   }
   .section-map--area {
       width:auto;
